@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42b9b76b-8351-4063-9c0b-026234200fcb" name="Changes" comment="" />
+    <list default="true" id="42b9b76b-8351-4063-9c0b-026234200fcb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/controllers/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/dto/GenerateTicketRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/dto/GenerateTicketResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ElectricParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ParkingFloorStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/Bill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/BillStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/BillStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ElectricCharger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ElectricCharger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ElectricParkingSpot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/Gate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/GateType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/GateType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/Operator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ParkingFloor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ParkingLot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ParkingLotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ParkingLotStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ParkingSpot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ParkingSpotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ParkingSpotStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/PaymentMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/PaymentMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/PaymentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/VehicleType.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,19 +52,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="2J8xukKibBy8cAX7BglaP9n6Eyi" />
@@ -42,15 +84,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/deepakkasera/Downloads/parkinglot-may23",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Scaler-LLD/parkinglot/parkinglot-may23",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "copyright",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Scaler-LLD\parkinglot\parkinglot-may23" />
+      <recent name="E:\Scaler-LLD\parkinglot\parkinglot-may23\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

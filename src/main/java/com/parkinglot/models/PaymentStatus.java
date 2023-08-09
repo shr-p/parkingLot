@@ -1,4 +1,4 @@
-package com.scaler.parkinglot.models;
+package com.parkinglot.models;
 
 public enum PaymentStatus {
     SUCCESS,

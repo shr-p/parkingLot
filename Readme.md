@@ -1,0 +1,1 @@
+Every model class has an id attribute.
