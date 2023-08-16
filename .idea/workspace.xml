@@ -5,44 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42b9b76b-8351-4063-9c0b-026234200fcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/controllers/TicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/dto/GenerateTicketRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/dto/GenerateTicketResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ElectricParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ParkingFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ParkingFloorStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ResponseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/repositories/ParkingLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/repositories/VehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/services/GateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/services/ParkingLotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/services/ParkingSpotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/services/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/services/VehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/strategy/RandomSpotAssignmentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/strategy/SpotAssignmentStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/Bill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/BillStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/BillStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ElectricCharger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ElectricCharger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ElectricParkingSpot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/Gate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/GateType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/GateType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/Operator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ParkingFloor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ParkingLot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ParkingLotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ParkingLotStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ParkingSpot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/ParkingSpotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/ParkingSpotStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/PaymentMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/PaymentMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/PaymentStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/Ticket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/parkinglot/models/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/VehicleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinglot/controllers/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/controllers/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/models/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,13 +39,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2J8xukKibBy8cAX7BglaP9n6Eyi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -78,23 +50,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Scaler-LLD/parkinglot/parkinglot-may23",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "copyright",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Scaler-LLD/parkinglot/parkinglot-may23&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Scaler-LLD\parkinglot\parkinglot-may23" />
@@ -110,10 +82,18 @@
       <option name="presentableId" value="Default" />
       <updated>1671473736552</updated>
       <workItem from="1671473737604" duration="610000" />
+      <workItem from="1691726746906" duration="209000" />
+      <workItem from="1691726965494" duration="309000" />
+      <workItem from="1691727284275" duration="4994000" />
+      <workItem from="1692163787923" duration="6949000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

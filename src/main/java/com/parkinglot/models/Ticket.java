@@ -16,7 +16,7 @@ public class Ticket extends BaseEntity{
         return entryTime;
     }
 
-    public void setEntryTime(Date entryTime) {
+    public void setEntryTime(long entryTime) {
         this.entryTime = entryTime;
     }
 
